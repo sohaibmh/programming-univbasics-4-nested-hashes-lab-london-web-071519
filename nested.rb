@@ -43,9 +43,8 @@ def adding_matz
      }
 programmer_hash[:yukihiro_matsumoto] = {known_for: "Ruby", languages: ["LISO", "C"]}
 programmer_hash
-
 end
-adding_matz
+
 def changing_alan
 	programmer_hash =
  		{
@@ -84,5 +83,6 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
+     programmer_hash[:alan_kay] = {known_for: "OR"}
 
 end
